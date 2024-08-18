@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Fitlife With Alex</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="img/gymlogo.png" alt="Fitlife With Alex Logo"></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h2>Contact Us</h2>
+    </header>
+    <main>
+        <section class="contact-form">
+            <form id="contactForm" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name here" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Your contact number" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Type email address" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+                <button type="submit" onclick="validateForm()">Submit</button>
+            </form>
+        </section>
+        <section class="contact-info">
+            <p>Email: <a href="mailto:info@fitlifewithalex.com">info@fitlifewithalex.com</a></p>
+            <p>Follow us on <a href="https://www.instagram.com/accounts/login/">Instagram</a> 
+            and <a href="https://www.facebook.com/login.php/">Facebook</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright © Fitlife With Alex, All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,252 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+header {
+    text-align: center;
+    background-color: #004d99;
+    color: white;
+    padding: 2rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    float: none; 
+}
+
+nav ul li.logo img {
+    width: 50px; 
+    height: auto;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #dedbdb;
+    color: #000;
+}
+
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+main section img {
+    width: 20%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+main section img:hover {
+    transform: scale(1.05);
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #004d99;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+footer p:hover {
+    color: gold;
+}
+
+
+.leftcol, .midcol, .rightcol {
+    height: 150px;
+    width: 27%;
+    background-color: #acceae;
+    border: none;
+    color: #333;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+    border: solid 1px rgb(14, 209, 209);
+}
+
+.leftcol:hover, .midcol:hover, .rightcol:hover {
+    background-color: #86a8f0;
+    color: white;
+}
+
+.leftcol h3:hover, .midcol h3:hover, .rightcol h3:hover {
+    color: rgb(235, 138, 13);
+}
+
+.leftcol p, .midcol p, .rightcol p {
+    color: rebeccapurple;
+}
+
+.cont {
+    height: 300px;
+    width: 50%;
+    padding: 10px;
+    background-color: #FF5733;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.service-box {
+    flex: 1;
+    background-color: #acceae;
+    border: none;
+    color: #333;
+    padding: 2rem;
+    text-align: left;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    max-width: 30%;
+    min-width: 250px;
+}
+
+.service-box:hover {
+    background-color: #86a8f0;
+    color: white;
+}
+
+.service-box h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #004d99;
+}
+
+.service-box p {
+    color: #333;
+}
+
+.note {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 1.5rem;
+}
+
+.contact-form {
+    background-color: #ffffff;
+    padding: 2rem;
+    margin: 2rem auto;
+    width: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background-color: #004d99;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #003366;
+}
+
+/* Contact Info Section */
+.contact-info {
+    text-align: center;
+    margin: 2rem auto;
+    font-size: 1.1rem;
+}
+
+.contact-info a {
+    color: #004d99;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}

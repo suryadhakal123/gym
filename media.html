@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media - Fitlife With Alex</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   
+    <nav>
+        <ul>
+            <li class="logo"><img src="img/gymlogo.png" alt="Fitlife With Alex Logo"></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h2>Media Gallery</h2>
+    </header>
+    <main>
+        <section>
+            <div class="gallery">
+                <img src="img/img1.jpeg" alt="img1" onclick="showImage('img/img1.jpeg')">
+                <img src="img/img3.jpeg" alt="img3" onclick="showImage('img/img3.jpeg')">
+                <img src="img/img4.jpeg" alt="img4" onclick="showImage('img/img4.jpeg')">
+                <img src="img/img2.jpg" alt="img2" onclick="showImage('img/img2.jpg')">
+                <img src="img/img5.jpeg" alt="img5" onclick="showImage('img/img5.jpeg')">
+                <img src="img/img6.jpeg" alt="img6" onclick="showImage('img/img6.jpeg')">
+            </div>
+            <div id="lightbox" class="lightbox">
+                <span class="close" onclick="closeLightbox()">&times;</span>
+                <img id="lightbox-img" class="lightbox-content">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright © Fitlife With Alex, All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
